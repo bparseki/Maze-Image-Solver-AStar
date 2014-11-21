@@ -75,6 +75,25 @@ namespace Maze
             return;
         }
 
+        private MazeNode Jump2(ref Maze maze, MazeNode current, int dirX, int dirY) {
+            int newX = current.X + dirX;
+            int newY = current.Y + dirY;
+
+            if ((newX) < 0 || newY < 0 || newX > (maze.Width - 1) || newY > (maze.Height - 1) || maze.Grid[newX,newY].IsWall) 
+                return null;
+            current = maze.Grid[newX, newY];
+            if (current.Location == maze.Finish) 
+                return current;
+            if (Math.Abs(dirX + dirY) != 1)
+            {
+                if (Jump2(ref maze, current, dirX, 0) != null) 
+                    return current;
+                if (Jump2(ref maze, current, 0, dirY) != null) 
+                    return current;
+            }
+            return null;
+        }
+
         private MazeNode Jump(ref Maze maze, MazeNode current, Direction d)
         {
             switch (d)
@@ -149,49 +168,12 @@ namespace Maze
                 case Direction.None:
 
             }
-            /*List<MazeNode> neighbours = GetNeighbours(parent, ref maze);
-            if (neighbours.Count == 8)
-            {
-                if (x && y)
-                {
-                    return Jump()
-                }
-                else
-                {
-
-                }
-            }*/
-
-
-            List<MazeNode> neighbours = new List<MazeNode>();
-            if (Math.Abs(x + y) == 1) //direction is vertical or horizontal
-            {
-                if ()
-            }
-            else // direction is diagonal
-            {
-
-            }
             
-            for (int i = Math.Max(0, parent.X - 1); i <= Math.Min(parent.X + 1, maze.Width-1); i++)
-            {
-                
-                for (int j = Math.Max(0, parent.Y - 1); j <= Math.Min(parent.Y + 1, maze.Height-1); j++)
-                {
-                    //Console.WriteLine(j);
-                    //Console.WriteLine(i);
-                    if (maze.Grid[i, j].IsWall || (i == parent.X && j == parent.Y) )
-                        continue;
-                    neighbours.Add(maze.Grid[i, j]);
-                }
-            }
-            return neighbours;
-            //Console.WriteLine("neighjhgjfhjfg " + neighbours.First());
         }
 
         private List<MazeNode> Prune(int x, int y, ref List<MazeNode> neighbours)
         {
-
+            return null;
         }
 
 
