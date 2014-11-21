@@ -1,0 +1,5 @@
+C:\Users\bparseki\Documents\Visual Studio 2013\Projects\MazeSolver\MazeSolver\bin\Debug\MazeSolver.exe.config
+C:\Users\bparseki\Documents\Visual Studio 2013\Projects\MazeSolver\MazeSolver\bin\Debug\MazeSolver.exe
+C:\Users\bparseki\Documents\Visual Studio 2013\Projects\MazeSolver\MazeSolver\bin\Debug\MazeSolver.pdb
+C:\Users\bparseki\Documents\Visual Studio 2013\Projects\MazeSolver\MazeSolver\obj\Debug\MazeSolver.exe
+C:\Users\bparseki\Documents\Visual Studio 2013\Projects\MazeSolver\MazeSolver\obj\Debug\MazeSolver.pdb

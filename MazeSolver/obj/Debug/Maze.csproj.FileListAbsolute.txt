@@ -1,0 +1,6 @@
+C:\Users\bparseki\Documents\Visual Studio 2013\Projects\MazeSolver\MazeSolver\bin\Debug\Maze.exe.config
+C:\Users\bparseki\Documents\Visual Studio 2013\Projects\MazeSolver\MazeSolver\bin\Debug\Maze.exe
+C:\Users\bparseki\Documents\Visual Studio 2013\Projects\MazeSolver\MazeSolver\bin\Debug\Maze.pdb
+C:\Users\bparseki\Documents\Visual Studio 2013\Projects\MazeSolver\MazeSolver\obj\Debug\Maze.exe
+C:\Users\bparseki\Documents\Visual Studio 2013\Projects\MazeSolver\MazeSolver\obj\Debug\Maze.pdb
+C:\Users\bparseki\Documents\Visual Studio 2013\Projects\MazeSolver\MazeSolver\obj\Debug\Maze.csprojResolveAssemblyReference.cache
